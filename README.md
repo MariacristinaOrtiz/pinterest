@@ -4,4 +4,4 @@ Se muestra  una pagina web  denominada **PINTEREST** en la que se busca replicar
 
 ## Imagen usado para el replicado
 
-![pinteres](https://www.pinterest.es/search/pins/?q=Healthy%20lifestyle%20photography&rs=guide&term_meta[]=illustration%7Cguide%7Cword%7C10&add_refine=photography%7Cguide%7Cword%7C6)
+![pinteres]()
