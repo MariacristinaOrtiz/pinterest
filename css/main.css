@@ -1,61 +1,66 @@
 /*setear nuestros archivos: sea igual para todos los navegadores*/
+/* Estilos a body*/
 body {
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
 }
+/*Estilos a header y sus hijos"*/
 header {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
   position: fixed;
-    background-color: #fff;
-    z-index: 1000;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    top: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
-/*estiloas a header, barra menu"*/
 .menu {
   width: 90%;
   position: relative;
-  left: 40px;
+  left: 40px; /*para centrarlo*/
   /*outline: 1px solid green;*/
 }
 .menu li {
   font-size: 20px;
-    font-weight: bold;
-    padding: 0 15px;
+  font-weight: bold;
+  padding: 0 15px;
   color: gray;
 }
-.inline-block{
-  display: inline-block;
-  font-size: 16px;
+.inline-block{/*clase reutilizable*/
+  display: inline-block;/* aplica inline-block a todas los bloques de "class=inline-block" contenido en "li"*/
+  font-size: 16px;/* agrega tamaño a los iconos*/
   color:black;
 }
 #box-menu {
   background-color: #EFEFEF;
-    border-radius: 5px;
-    margin: 0 16px;
-    width: 77%;
-    padding: 8px;
-
+  border-radius: 5px;
+  margin: 0 16px;
+  width: 77%;
+  padding: 8px;
 }
 #lupa {
   width: 93%;
 }
-input {
-    width: 93%;
-    border: none;
-    line-height: 20px;
-    font-size: 17px;
-    background-color: transparent;
+input { /*estilos a input*/
+  width: 93%; 
+  border: none;
+  line-height: 20px;
+  font-size: 17px;
+  background-color: transparent;
 }
 #pinterest {
   color:#BD081C;
   font-size: 44px;
   vertical-align: middle;
 }
-/*estilos al submenu*/
-.sub-menu-1{
+.sub-menu {/*estilos a la clase sub-menu*/
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  border-radius: 10px;
+  }
+.sub-menu-1{/*estilos a la clase submenu-1 bloques hijos de sub-menu*/
   display: inline-block;
   text-align: center;
   background-color: green;
@@ -68,92 +73,75 @@ input {
   /*outline: 1px solid red;*/
   margin: 0 9px;
 }
-.sub-menu {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    border-radius: 10px;
-  /*outline: 1px solid green;*/
-}
-#sub-menu-a {
-  background-image: url(../assets/images/imageA.jpg);
+#sub-menu-a {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageA.jpg);/*añade imagen de fondo*/
   background-size: cover;
-    background-position: center;
-    padding: 20px;
+  background-position: center;
+  padding: 20px;
+}
+#sub-menu-b {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageB.jpg);/*añade imagen de fondo*/
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+#sub-menu-c {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageC.jpg);/*añade imagen de fondo*/
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+#sub-menu-d {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageD.jpg);/*añade imagen de fondo*/
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+#sub-menu-e {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageE.jpg);/*añade imagen de fondo*/
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+#sub-menu-f {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageF.jpg);/*añade imagen de fondo*/
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
 
 }
-#sub-menu-b {
-  background-image: url(../assets/images/imageB.jpg);
+#sub-menu-g {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageG.jpg);/*añade imagen de fondo*/
   background-size: cover;
-    background-position: center;
-    padding: 20px;
-
+  background-position: center;
+  padding: 20px;
 }
-#sub-menu-c {
-  background-image: url(../assets/images/imageC.jpg);
+#sub-menu-h {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageH.jpg);/*añade imagen de fondo*/
   background-size: cover;
-    background-position: center;
-    padding: 20px;
-
+  background-position: center;
+  padding: 20px;
 }
-#sub-menu-d {
-  background-image: url(../assets/images/imageD.jpg);
+#sub-menu-i {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageJ.jpg);/*añade imagen de fondo*/
   background-size: cover;
-    background-position: center;
-    padding: 20px;
-
+  background-position: center;
+  padding: 20px;
 }
-#sub-menu-e {
-  background-image: url(../assets/images/imageE.jpg);
+#sub-menu-j {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageB.jpg);/*añade imagen de fondo*/
   background-size: cover;
-    background-position: center;
-    padding: 20px;
-
+  background-position: center;
+  padding: 20px;
 }
-#sub-menu-f {
-  background-image: url(../assets/images/imageF.jpg);
+#sub-menu-k {/*añade imagen de fondo y otras propiedades a cada bloque hijo de sub-menu*/
+  background-image: url(../assets/images/imageE.jpg);/*añade imagen de fondo*/
   background-size: cover;
-    background-position: center;
-    padding: 20px;
-
+  background-position: center;
+  padding: 20px;
 }
-#sub-menu-g {
-  background-image: url(../assets/images/imageG.jpg);
-  background-size: cover;
-    background-position: center;
-    padding: 20px;
-
-}
-#sub-menu-h {
-  background-image: url(../assets/images/imageH.jpg);
-  background-size: cover;
-    background-position: center;
-    padding: 20px;
-
-}
-#sub-menu-i {
-  background-image: url(../assets/images/imageJ.jpg);
-  background-size: cover;
-    background-position: center;
-    padding: 20px;
-
-}
-#sub-menu-j {
-  background-image: url(../assets/images/imageB.jpg);
-  background-size: cover;
-    background-position: center;
-    padding: 20px;
-
-}
-#sub-menu-k {
-  background-image: url(../assets/images/imageE.jpg);
-  background-size: cover;
-    background-position: center;
-    padding: 20px;
-
-}
-/*estilos a section*/
-.images {
+/*estilos a section (contenido principal)*/
+.images { /*clase de la section*/
 margin-top: 160px;
 margin-left: 10px;
 margin-right: 10px;
@@ -164,23 +152,16 @@ column-count: 3;
 column-gap: 8px;
 }
 img {
-max-width: 100%;
-  border-radius: 50px;
+max-width: 100%;/*la imagen este dentro de su contenedor*/
+border-radius: 50px;
   /*border: 1px solid blue;*/
 }
 .post {
-    /*border: 1px solid red;*/
-    /*width:32.2%;*/
-    display: inline-block;
-    margin: 5px;
+  /*border: 1px solid red;*/
+  display: inline-block;/*propiedad display block para ordenarlos en linea si perder la propiedad de bloque*/
+  margin: 5px;
 }
-
-/*.text {
-
-  line-height: normal;
-outline: 1px solid yellow;
-}*/
 h4, p {
-  margin:0;
+margin:0;
 text-align:center;
 }
