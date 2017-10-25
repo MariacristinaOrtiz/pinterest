@@ -4,4 +4,4 @@ Se muestra  una pagina web  denominada **PINTEREST** en la que se busca replicar
 
 ## Imagen usado para el replicado
 
-![pinteres]()
+![pinteres](https://github.com/MariacristinaOrtiz/pinterest/blob/master/assets/docs/pinterest.jpg)
